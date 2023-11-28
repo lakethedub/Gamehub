@@ -1,0 +1,46 @@
+game:GetService("StarterGui"):SetCore("SendNotification",{ 	Title = "Dentra Hub",  	
+
+Text = "Loading",
+
+})
+
+game:GetService("StarterGui"):SetCore("SendNotification",{ 	
+
+Title = "wait...",  	
+
+Text = "loading...",
+
+})
+
+wait()
+
+game:GetService("StarterGui"):SetCore("SendNotification",{ 	
+
+Title = "loaded!",  	
+
+Text = "Have fun!",
+
+})
+
+local Library = loadstring(game:HttpGet("https://pastebin.com/raw/vff1bQ9F"))()
+local Window = Library.CreateLib("Dentra Hub", "LightTheme")
+
+local Tab1 = Window:NewTab("Home")
+local Section1 = Tab1:NewSection("x HOME x")
+
+Section1:NewLabel("Welcome to | Hub!")
+Section1:NewLabel("ENJOY THE SCRIPT!!")
+Section1:NewLabel("")
+Section1:NewLabel("Updates")
+Section1:NewLabel("No Updates Yet!")
+Section1:NewLabel("Coming Soon")
+Section1:NewLabel("[ + ] Update 1")
+Section1:NewLabel("[ + ] settings tab")
+Section1:NewLabel("[ + ] roblox could scripts tab")
+Section1:NewLabel("")
+Section1:NewLabel("Credits")
+Section1:NewLabel("Thanks | @lakehawkins")
+Section1:NewLabel("Thanks | CooperBristowe")
+
+local Tab2 = Window:NewTab("GameHub")
+local Section2 = Tab2:NewSection("x GameHub x")
